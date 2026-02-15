@@ -17,7 +17,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-        <Router>
+        <Router basename="/Sanuja-Jayasundara-potfolio">
           <SEOHead />
           <Navbar />
           <div style={{ flex: 1 }}>
