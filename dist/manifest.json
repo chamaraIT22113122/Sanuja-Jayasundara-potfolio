@@ -1,0 +1,16 @@
+{
+  "name": "Sineth Jayasundara Portfolio",
+  "short_name": "Sineth Portfolio",
+  "description": "Personal portfolio website of Sineth Jayasundara",
+  "start_url": "/Sineth-Jayasundara-Potfolio/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/Sineth-Jayasundara-Potfolio/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
