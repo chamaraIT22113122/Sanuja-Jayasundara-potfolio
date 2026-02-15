@@ -1,11 +1,11 @@
 import { Helmet } from "react-helmet-async";
 
 export default function SEOHead({
-  title = "Sineth Jayasundera - Electrical Engineering Student",
+  title = "Sanuja Jayasundara - Electrical Engineering Student",
   description = "Electrical Engineering student at Penn State University with expertise in IoT development, embedded systems, and leadership through Model United Nations. Experienced in smart home technology and community service.",
-  keywords = "Sineth Jayasundera, Electrical Engineering, Penn State, IoT Development, Embedded Systems, Model United Nations, Smart Energy, Python, C++",
-  image = "https://chamaraIT22113122.github.io/Sineth-Jayasundara-Potfolio/og-image.jpg",
-  url = "https://chamaraIT22113122.github.io/Sineth-Jayasundara-Potfolio/",
+  keywords = "Sanuja Jayasundara, Electrical Engineering, Penn State, IoT Development, Embedded Systems, Model United Nations, Smart Energy, Python, C++",
+  image = "https://chamaraIT22113122.github.io/Sanuja-Jayasundara-potfolio/og-image.jpg",
+  url = "https://chamaraIT22113122.github.io/Sanuja-Jayasundara-potfolio/",
   type = "website",
 }) {
   return (
@@ -15,7 +15,7 @@ export default function SEOHead({
       <meta name="title" content={title} />
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      <meta name="author" content="Sineth Jayasundera" />
+      <meta name="author" content="Sanuja Jayasundara" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="theme-color" content="#22d3ee" />
       <link rel="canonical" href={url} />
@@ -26,7 +26,7 @@ export default function SEOHead({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
-      <meta property="og:site_name" content="Sineth Jayasundera Portfolio" />
+      <meta property="og:site_name" content="Sanuja Jayasundara Portfolio" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />

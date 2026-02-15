@@ -103,7 +103,7 @@ const Contact = () => {
                 </Typography>
                 <Typography
                   component="a"
-                  href="mailto:sineth.jayasundera@gmail.com"
+                  href="mailto:sanuja.jayasundara@gmail.com"
                   sx={{
                     color: "#fff",
                     fontSize: "1.1rem",
@@ -115,9 +115,9 @@ const Contact = () => {
                       borderRadius: 1,
                     },
                   }}
-                  aria-label="Email Sineth at sineth.jayasundera@gmail.com"
+                  aria-label="Email Sanuja at sanuja.jayasundara@gmail.com"
                 >
-                  sineth.jayasundera@gmail.com
+                  sanuja.jayasundara@gmail.com
                 </Typography>
               </Box>
               <Box>
@@ -138,7 +138,7 @@ const Contact = () => {
                       borderRadius: 1,
                     },
                   }}
-                  aria-label="Call Sineth at +1 518-243-9892"
+                  aria-label="Call Sanuja at +1 518-243-9892"
                 >
                   +1 518-243-9892
                 </Typography>
@@ -183,10 +183,10 @@ const Contact = () => {
                 <Tooltip title="Connect on LinkedIn" arrow>
                   <IconButton
                     component="a"
-                    href="https://www.linkedin.com/in/sineth-jayasundera-5b8866340"
+                    href="https://www.linkedin.com/in/sanuja-jayasundara-5b8866340"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Visit Sineth's LinkedIn profile"
+                    aria-label="Visit Sanuja's LinkedIn profile"
                     sx={{
                       color: "#0077b5",
                       background: "rgba(0,119,181,0.1)",
@@ -216,10 +216,10 @@ const Contact = () => {
                 <Tooltip title="Send an Email" arrow>
                   <IconButton
                     component="a"
-                    href="https://mail.google.com/mail/?view=cm&fs=1&to=sineth.jayasundera@gmail.com"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=sanuja.jayasundara@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Send email to Sineth"
+                    aria-label="Send email to Sanuja"
                     sx={{
                       color: "#ea4335",
                       background: "rgba(234,67,53,0.1)",
@@ -252,7 +252,7 @@ const Contact = () => {
                     href="https://wa.link/lcn6x6"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Message Sineth on WhatsApp"
+                    aria-label="Message Sanuja on WhatsApp"
                     sx={{
                       color: "#25D366",
                       background: "rgba(37,211,102,0.1)",

@@ -106,10 +106,10 @@ const donationImages = [donation1, donation2, donation3];
 
 /* ---------- Personal Info ---------- */
 const personalInfo = {
-  name: "Sineth Jayasundera",
+  name: "Sanuja Jayasundara",
   title: "Electrical Engineering Student",
   location: "University Park, PA 16802",
-  email: "sineth.jayasundera@gmail.com",
+  email: "sanuja.jayasundara@gmail.com",
   phone: "518-243-9892",
   bio: "Driven to integrate electrical engineering, IoT, and software development, I bring leadership experience in Model UN operations, community service, and international competitions, complemented by technical work in IoT development, game design, and competitive programming.",
 };
@@ -941,7 +941,7 @@ export default function About() {
                   }}
                 />
                 <Chip
-                  label="📧 sineth.jayasundera@gmail.com"
+                  label="📧 sanuja.jayasundara@gmail.com"
                   sx={{
                     bgcolor: "rgba(34,211,238,0.2)",
                     color: "#fff",

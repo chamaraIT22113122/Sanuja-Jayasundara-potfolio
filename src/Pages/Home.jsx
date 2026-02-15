@@ -18,7 +18,7 @@ import { useNavigate } from "react-router-dom";
 import { FadeIn, SlideInLeft, SlideInRight } from "../Components/ScrollAnimations";
 import StatsCounter from "../Components/StatsCounter";
 
-import cv from "../Files/Sineth Jayasundera.pdf";
+import cv from "../Files/Sanuja Jayasundara.pdf";
 import vinuja from "../Images/man.png";
 
 /* ---------------- Helper function for article ---------------- */
@@ -58,8 +58,8 @@ function useTypeCycle(list, { typeMs = 45, holdMs = 1000, eraseMs = 22 } = {}) {
 
 /* ---------------- Shared social links ---------------- */
 const socialLinks = [
-    { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/sineth-jayasundera-5b8866340", label: "LinkedIn" },
-    { icon: <FaEnvelope />, href: "https://mail.google.com/mail/?view=cm&fs=1&to=sineth.jayasundera@gmail.com", label: "Email" },
+    { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/sanuja-jayasundara-5b8866340", label: "LinkedIn" },
+    { icon: <FaEnvelope />, href: "https://mail.google.com/mail/?view=cm&fs=1&to=sanuja.jayasundara@gmail.com", label: "Email" },
     { icon: <FaWhatsapp />, href: "https://wa.link/lcn6x6", label: "WhatsApp" },
 ];
 
@@ -173,7 +173,7 @@ function DesktopHome({ typed }) {
                 <Box
                     component="img"
                     src={vinuja}
-                    alt="Sineth Jayasundera"
+                    alt="Sanuja Jayasundara"
                     sx={{
                         height: "100%",
                         width: "auto",
@@ -216,7 +216,7 @@ function DesktopHome({ typed }) {
                             },
                         }}
                     >
-                        Sineth Jayasundera
+                        Sanuja Jayasundara
                     </Typography>
 
                     <Typography sx={{ fontSize: "1.25rem", color: "rgba(255,255,255,0.85)" }}>
@@ -417,7 +417,7 @@ function MobileHome({ typed, direction = "coloumn", }) {
                 <Box
                     component="img"
                     src={vinuja}
-                    alt="Sineth Jayasundera"
+                    alt="Sanuja Jayasundara"
                     sx={{
                         height: "100%",
                         width: "auto",
@@ -463,7 +463,7 @@ function MobileHome({ typed, direction = "coloumn", }) {
                             backgroundClip: "text",
                         }}
                     >
-                        Sineth Jayasundera
+                        Sanuja Jayasundara
                     </Typography>
 
                     <Typography sx={{ fontSize: "1.05rem", color: "rgba(255,255,255,0.92)", textAlign: "left" }}>

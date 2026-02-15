@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Button, Typography, useTheme, useMediaQuery, Card, CardContent } from "@mui/material";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import DownloadIcon from "@mui/icons-material/Download";
-import cv from "../Files/Sineth Jayasundera.pdf";
+import cv from "../Files/Sanuja Jayasundara.pdf";
 
 function DesktopResume() {
   return (
@@ -61,7 +61,7 @@ function DesktopResume() {
           >
             <iframe
               src={cv}
-              title="Sineth Jayasundera Resume"
+              title="Sanuja Jayasundara Resume"
               width="100%"
               height="100%"
               style={{ border: "none" }}

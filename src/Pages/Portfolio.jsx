@@ -43,7 +43,7 @@ import {
 } from "@mui/icons-material";
 import { FadeIn, SlideInLeft, SlideInRight, StaggerChildren } from "../Components/ScrollAnimations";
 import ImageGallery from "../Components/ImageGallery";
-import cv from "../Files/Sineth Jayasundera.pdf";
+import cv from "../Files/Sanuja Jayasundara.pdf";
 
 // APICTA Images
 import apicta1 from "../Images/APICTA/WhatsApp Image 2025-11-28 at 09.53.52 (1).jpeg";
@@ -870,17 +870,17 @@ export default function Portfolio() {
             >
               <Stack spacing={3} alignItems="center">
                 <Typography variant="h5" sx={{ fontWeight: 700, color: "#fff", textAlign: "center" }}>
-                  Sineth Jayasundera - Resume
+                  Sanuja Jayasundara - Resume
                 </Typography>
                 <Typography variant="body1" sx={{ color: "rgba(255,255,255,0.7)", textAlign: "center", maxWidth: 600 }}>
                   View my complete resume with detailed information about my education, work experience, skills, and achievements.
                 </Typography>
                 <Button
                   href={cv}
-                  download="Sineth_Jayasundera_Resume.pdf"
+                  download="Sanuja_Jayasundara_Resume.pdf"
                   variant="contained"
                   startIcon={<Download />}
-                  aria-label="Download Sineth Jayasundera resume as PDF"
+                  aria-label="Download Sanuja Jayasundara resume as PDF"
                   sx={{
                     background: "linear-gradient(135deg, #22d3ee, #22d3ee)",
                     color: "#fff",
@@ -938,7 +938,7 @@ export default function Portfolio() {
                   )}
                   <iframe
                     src={cv}
-                    title="Sineth Jayasundera Resume PDF"
+                    title="Sanuja Jayasundara Resume PDF"
                     onLoad={() => setPdfLoading(false)}
                     aria-label="Resume PDF viewer"
                     style={{

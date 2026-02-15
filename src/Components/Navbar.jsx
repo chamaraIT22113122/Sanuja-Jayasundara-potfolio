@@ -97,9 +97,9 @@ export default function Navbar() {
             >
               <RouterLink
                 to="/"
-                aria-label="Sineth Jayasundera home page"
+                aria-label="Sanuja Jayasundara home page"
               >
-                sinethjayasundera.com
+                sanujajayasundara.com
               </RouterLink>
             </Typography>
           </Box>

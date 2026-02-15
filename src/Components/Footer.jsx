@@ -21,8 +21,8 @@ import NorthIcon from "@mui/icons-material/North";
 const year = new Date().getFullYear();
 
 const social = [
-  { icon: <LinkedInIcon />, href: "https://www.linkedin.com/in/sineth-jayasundera-5b8866340", label: "LinkedIn" },
-  { icon: <EmailIcon />, href: "mailto:sineth.jayasundera@gmail.com", label: "Email" },
+  { icon: <LinkedInIcon />, href: "https://www.linkedin.com/in/sanuja-jayasundara-5b8866340", label: "LinkedIn" },
+  { icon: <EmailIcon />, href: "mailto:sanuja.jayasundara@gmail.com", label: "Email" },
 ];
 
 const quickLinks = [
@@ -60,7 +60,7 @@ function SocialRow({ size = "medium" }) {
 /* ---------------- Desktop render ---------------- */
 function DesktopFooter() {
   const location = useLocation();
-  const pathname = location.pathname.replace('/Sineth-Jayasundara-Potfolio', '') || location.pathname;
+  const pathname = location.pathname.replace('/Sanuja-Jayasundara-potfolio', '') || location.pathname;
   const showIcons = ['/about', '/portfolio', '/research'].includes(pathname);
   const hideGetInTouchButton = ['/', '/contact'].includes(pathname);
   
@@ -93,7 +93,7 @@ function DesktopFooter() {
                   WebkitTextFillColor: "transparent",
                 }}
               >
-                Sineth.Jayasundera
+                Sanuja.Jayasundara
               </Typography>
               <Typography variant="body2" sx={{ color: "rgba(255,255,255,0.75)" }}>
                 Electrical Engineering student at Penn State, passionate about IoT development,
@@ -137,7 +137,7 @@ function DesktopFooter() {
                 <Stack direction="row" spacing={1.5} sx={{ mt: 1 }}>
                   <IconButton
                     aria-label="LinkedIn"
-                    href="https://www.linkedin.com/in/sineth-jayasundera-5b8866340"
+                    href="https://www.linkedin.com/in/sanuja-jayasundara-5b8866340"
                     target="_blank"
                     rel="noopener noreferrer"
                     sx={{
@@ -152,7 +152,7 @@ function DesktopFooter() {
                   <IconButton
                     component="a"
                     aria-label="Email"
-                    href="https://mail.google.com/mail/?view=cm&fs=1&to=sineth.jayasundera@gmail.com"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=sanuja.jayasundara@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     sx={{
@@ -203,8 +203,8 @@ function DesktopFooter() {
               Contact
             </Typography>
             <Stack spacing={1}>
-              <MLink href="mailto:sineth.jayasundera@gmail.com" color="inherit" underline="hover">
-                sineth.jayasundera@gmail.com
+              <MLink href="mailto:sanuja.jayasundara@gmail.com" color="inherit" underline="hover">
+                sanuja.jayasundara@gmail.com
               </MLink>
               <MLink href="https://wa.link/lcn6x6" target="_blank" rel="noopener" color="inherit" underline="hover">
                 WhatsApp: +94 76 908 8578
@@ -262,7 +262,7 @@ function DesktopFooter() {
 /* ---------------- Mobile render ---------------- */
 function MobileFooter() {
   const location = useLocation();
-  const pathname = location.pathname.replace('/Sineth-Jayasundara-Potfolio', '') || location.pathname;
+  const pathname = location.pathname.replace('/Sanuja-Jayasundara-potfolio', '') || location.pathname;
   const showIcons = ['/about', '/portfolio', '/research'].includes(pathname);
   const hideFooterSocialIcons = ['/', '/contact'].includes(pathname);
   
@@ -290,7 +290,7 @@ function MobileFooter() {
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}>
-              Sineth.Jayasundera
+              Sanuja.Jayasundara
             </Typography>
             <Typography variant="body2" sx={{ color: "rgba(255,255,255,0.87)" }}>
               Electrical Engineering Student.
@@ -356,8 +356,8 @@ function MobileFooter() {
 
           {/* Contact + Social */}
           <Stack spacing={1}>
-            <MLink href="mailto:sineth.jayasundera@gmail.com" color="inherit" underline="hover">
-              sineth.jayasundera@gmail.com
+            <MLink href="mailto:sanuja.jayasundara@gmail.com" color="inherit" underline="hover">
+              sanuja.jayasundara@gmail.com
             </MLink>
             <MLink href="https://wa.link/lcn6x6" target="_blank" rel="noopener" color="inherit" underline="hover">
               WhatsApp: +94 76 908 8578
