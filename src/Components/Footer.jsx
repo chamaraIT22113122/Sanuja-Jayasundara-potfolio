@@ -60,7 +60,8 @@ function SocialRow({ size = "medium" }) {
 /* ---------------- Desktop render ---------------- */
 function DesktopFooter() {
   const location = useLocation();
-  const pathname = location.pathname.replace('/Sanuja-Jayasundara-potfolio', '') || location.pathname;
+  const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
+  const pathname = basePath ? location.pathname.replace(basePath, '') || location.pathname : location.pathname;
   const showIcons = ['/about', '/portfolio', '/research'].includes(pathname);
   const hideGetInTouchButton = ['/', '/contact'].includes(pathname);
   
@@ -262,7 +263,8 @@ function DesktopFooter() {
 /* ---------------- Mobile render ---------------- */
 function MobileFooter() {
   const location = useLocation();
-  const pathname = location.pathname.replace('/Sanuja-Jayasundara-potfolio', '') || location.pathname;
+  const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
+  const pathname = basePath ? location.pathname.replace(basePath, '') || location.pathname : location.pathname;
   const showIcons = ['/about', '/portfolio', '/research'].includes(pathname);
   const hideFooterSocialIcons = ['/', '/contact'].includes(pathname);
   

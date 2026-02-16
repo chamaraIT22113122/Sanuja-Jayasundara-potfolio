@@ -2,9 +2,9 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: "/Sanuja-Jayasundara-potfolio/",
+  base: command === 'build' ? '/Sanuja-Jayasundara-potfolio/' : '/',
   build: {
     outDir: 'build',
     rollupOptions: {
@@ -17,4 +17,4 @@ export default defineConfig({
     },
     chunkSizeWarningLimit: 1000,
   }
-});
+}));

@@ -14,10 +14,12 @@ import Contact from "./Pages/Contact";
 import Resume from "./Pages/Resume";
 
 const App = () => {
+  const basename = import.meta.env.BASE_URL;
+  
   return (
     <ThemeProvider>
       <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-        <Router basename="/Sanuja-Jayasundara-potfolio">
+        <Router basename={basename}>
           <SEOHead />
           <Navbar />
           <div style={{ flex: 1 }}>
